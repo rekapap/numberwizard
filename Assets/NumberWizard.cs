@@ -45,11 +45,13 @@ public class NumberWizard : MonoBehaviour
         }
     }
 
+    // Updates the Guess
     void GuessUpdater()
     {
         guess = (minNumber + maxNumber) / 2;
     }
 
+    // Updates Guess and Print into the Debug
     void UpdateGameState()
     {
         GuessUpdater();
